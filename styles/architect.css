@@ -196,6 +196,19 @@ main{
     width: 165px;
 }
 
+/* footer section */
+footer{
+    height: 5.5rem;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin: 6.25rem 12.5rem 12.5rem 12.5rem;
+}
+
+footer p{
+    padding-top: 38px;
+}
+
 
 
 
@@ -205,7 +218,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .teams-container, .features, .facts-card-container, .sponsors-img-container
+    nav, .teams-container, .features, .facts-card-container, .sponsors-img-container, footer
      {
         flex-direction: column;
     }
@@ -230,6 +243,11 @@ main{
      .facts-card-container{
         gap: 20px;
      }
+     footer{
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+        padding-bottom: 20px;
+     }
 }
 
 /* tablet or medium devices */
@@ -237,7 +255,12 @@ main{
     header{
         padding: 20px;
     }
-    nav, .teams-container, .features, .sponsors-img-container {
+    nav, .teams-container, .features, .sponsors-img-container, footer {
         flex-direction: column;
+    }
+    footer{
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+        padding-bottom: 20px;
     }
 }
