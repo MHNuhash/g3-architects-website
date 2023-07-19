@@ -7,6 +7,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 .btn-primary{
     border-radius: 8px;
     color: #FFF;
@@ -85,6 +89,7 @@ main{
  .teams-container{
     display: flex;
     align-items: center;
+    padding-top: 50px;
  }
  .teams-img-container{
     display: grid;
